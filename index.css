@@ -5,8 +5,13 @@ body{
  
 }
 
-img{
+ img,video{
     width: 50vw;
+    border-radius: 5px;
+    
+}
+.contenido img,video{
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 .imagen{
     display: flex;
@@ -40,6 +45,7 @@ transition: all .5;
 display: grid;
 grid-template-columns: repeat(30,1fr);
 grid-template-rows: repeat(4,1fr);
+
 
 }
 
@@ -75,7 +81,7 @@ margin-bottom: 10px;
 }
 
 @media screen and (max-width:900px){
-     img{
+     img,video{
         width: 70vw;
      }
      .boton{
