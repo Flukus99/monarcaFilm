@@ -10,6 +10,7 @@ body{
     border-radius: 5px;
     
 }
+
 .contenido img,video{
     box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
@@ -37,7 +38,7 @@ margin-top: 3vw;
 background: #f4f2f7;
 color:black;
 width: 50vw;
-height: 80px;
+height: 50px;
 border-radius: 30px;
 margin-bottom: 25px;
 cursor: pointer;
@@ -87,5 +88,29 @@ margin-bottom: 10px;
      .boton{
         width: 70vw;
         height: 60px;
+     }
+} @media screen and (max-width:800px) {
+
+     img,video{
+        width: 90vw;
+     }
+     .boton{
+        width: 70vw;
+        height: 40px;
+        
+     }
+     svg{
+        width: 25px;
+        height: 25px;
+     }
+     h3{
+        font-size: 3vw !important;
+     }
+     h4,h1{
+        font-size: 5vw !important;
+     }
+    
+     h1,h3{
+        width: 100% !important;
      }
 }
